@@ -1,0 +1,90 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout */
+
+body {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container{
+    margin:  50px 10px;
+    text-align: center;
+}
+
+#sw1 {
+    float: left;
+}
+
+#sw2 {
+    float: right;
+
+}
+
+/**** Smartphone *****/
+
+/* Cabecalho */
+
+header h1 {
+    color: #9b8181;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+/* menu */
+ nav {
+    width: 100%;
+ }
+
+ nav ul {
+    list-style: none;
+    background-color: #e15a1f;
+    overflow: hidden;
+ }
+
+ nav ul li {
+    float: left;
+ }
+
+ nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 10px 15px ;
+ }
+
+ nav ul li a:hover{
+    background-color: black;
+ }
+
+ /* Rodapé */
+ footer{
+    width: 100%;
+    background-color: #e15a1f;
+    color: #ffffff;
+    padding: 15px 0px;
+    font-size: 0.9em;
+    text-align: center;
+ }
+
+
+/**** Notebooks / PCS ****/
+
+@media (win-width: 576px) {
+    #sw1, #sw2 {
+        float: none;
+    }
+
+}
+ 
+
+
+
